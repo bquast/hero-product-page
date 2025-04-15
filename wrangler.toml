@@ -1,6 +1,6 @@
 [build]
-command = "npm run build"
-pages_build_output_dir = ".next"
+command = "npm run build && npx @cloudflare/next-on-pages"
+pages_build_output_dir = ".vercel/output/static"
 
 [build.environment]
 NODE_VERSION = "20.0.0" 
