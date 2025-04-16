@@ -19,7 +19,9 @@ export function Hero() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button className="gap-1" size="lg">
+                <a href="https://app.hero.marketing/">
                 Start Building Your Story <ArrowRight className="h-4 w-4" />
+                </a>
               </Button>
               <Button variant="outline" size="lg">
                 Learn More
