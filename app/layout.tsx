@@ -1,15 +1,18 @@
+// app/layout.tsx
+
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "StoryBrand Framework | Hero Marketing",
   description: "Create compelling marketing narratives with the StoryBrand framework",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -20,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google tag (gtag.js) */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-6LEBXCQDME"
@@ -42,7 +44,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
