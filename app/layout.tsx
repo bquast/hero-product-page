@@ -10,7 +10,7 @@ import Script from "next/script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "StoryBrand Framework | Hero Marketing",
+  title: "HERO marketing",
   description: "Create compelling marketing narratives with the StoryBrand framework",
   generator: "v0.dev",
 }
