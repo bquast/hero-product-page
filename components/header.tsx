@@ -34,7 +34,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-4">
           <ModeToggle />
-          <Button>Get Started</Button>
+          <Link href="https://app.hero.marketing/">Get Started</Link>
         </div>
       </div>
     </header>
