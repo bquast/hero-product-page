@@ -31,7 +31,7 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-[300px] h-[400px] md:w-[450px] md:h-[600px]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hoplite2-6SnTu8POxOtu4u2C385p3j8YlTiVaY.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hoplite2-removebg-preview-cGPZOS71pz1KFekpQ9NvPfHCPV15m0.png"
                 alt="Hero Marketing Warrior"
                 fill
                 className="object-contain"
